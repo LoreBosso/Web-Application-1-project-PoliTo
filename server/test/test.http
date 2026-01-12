@@ -1,0 +1,47 @@
+POST http://localhost:3001/api/utenti/3/partite
+content-type: application/json
+
+### 
+
+POST http://localhost:3001/api/partite/6/rounds
+content-type: application/json
+
+###
+
+PUT http://localhost:3001/api/partite/6/rounds/1/risposta
+content-type: application/json
+
+{
+  "posizione": "1"
+}
+###
+
+GET http://localhost:3001/api/partite/6/stats
+
+###
+
+GET http://localhost:3001/api/partite/6/mazzo
+
+###
+
+GET http://localhost:3001/api/demo/partita
+
+###
+
+GET http://localhost:3001/api/3/partite
+
+###
+
+POST http://localhost:3001/api/sessioni
+content-type: application/json
+
+{
+  "username": "TizioQualunque",
+  "password": "password123abc"
+  }
+
+###
+
+DELETE http://localhost:3001/api/sessioni/corrente
+
+###
