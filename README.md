@@ -51,7 +51,7 @@ The project demonstrates a full-stack implementation using **React** for the fro
 
 4.  **Run the Application:**
     * Start the server: `node index.js` (or `nodemon index.js`) inside the `/server` folder.
-    * Start the client: `npm start` inside the `/client` folder.
+    * Start the client: `npm run dev` inside the `/client` folder.
     * The app will be available at `http://localhost:3000`.
 
 ---
